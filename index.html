@@ -1,17 +1,22 @@
- 
+
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
     <title>Atul Singh</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width:device-width initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/page1.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/page2.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/form1.css">
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>  
     <script src="js/bootstrap.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-1.11.3.min.js"></script>
@@ -22,8 +27,7 @@
             $(".nav-link").on("click",function(event) {
                 if(this.hash != " ")
                     {
-                        event.preventDefault();
-                        var hash = this.hash; 
+                        event.preventDefault();                        var hash = this.hash; 
                         $('html,body').animate({
                             scrollTop: $(hash).offset().top
                         }, 800 ,function() {
@@ -45,7 +49,7 @@
     <h3 class="margin high-text Name">ATUL SINGH</h3>
     <img src="images/me.jpg" class="img-circle margin" width="250px" height="250px">
     <h3 class="margin1 text-web">Android and Web Developer</h3>
-        <marquee behavior="alternate" scrolldelay="20"><p class="looking">Looking for internship in the field of development.</p></marquee>
+        <marquee behavior="alternate"><p class="looking">Looking for internship in the field of development.</p></marquee>
     </div>
   <!--  <button class="bottom">Scroll Down</button>  -->
   <!--  <span id="down-key" onclick="down()"></span>  -->
