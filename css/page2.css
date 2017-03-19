@@ -1,0 +1,109 @@
+.skill-main {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding-top: 30px;
+}
+.link1 {
+    text-decoration: none;
+}
+
+.looking {
+    font-size: 35px;
+    font-style: bold;
+}
+
+.skill-img {
+    width: 200px;
+    height: 200px;
+}
+.skill-img:hover {
+    -webkit-transform:scale(1.1);
+}
+#link2 {
+    text-decoration: none;
+}
+
+.resume-div {
+    margin-top: 35px;
+}
+.resume {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #DFCFBE;
+    font-style: bold;
+    font-size: 20px;
+    border-radius: 10%;
+    color: #034F84;
+}
+.resume:hover {
+    color: red;
+}
+
+.margin5 {
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.subject {
+    font-size: 25px;
+    color: #5484A4;
+}
+.lang {
+    text-align: left;
+    font-size: 20px;
+    width: 25%;
+}
+.subj {
+    padding-left: 15px;
+    align-content: center;
+}
+.center {
+    float: inherit;
+}
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+    -webkit-transition: all 1.6s ease-in-out;
+}
+.navbar {
+      margin-bottom: 0px;
+}
+.affix ~ .container-fluid1 {
+     position: relative;
+     top: 0px;
+}
+.container-fluid {
+    padding-top: 10px;
+}
+.click {
+    transition: 2s;
+}
+.pad {
+    padding-left: 20px;
+}
+
+.contact-marg {
+    margin-left: 30%;
+}
+.contact-text {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#my-icon {
+    font-size: 48px;
+    text-align: center;
+}
+#my-icon1 {
+    font-size: 32px;
+}
+#number {
+    font-size: 25px;
+    padding-left: 20px;
+}
+#hamburg {
+    font-size: 32px;
+}

@@ -1,0 +1,116 @@
+#skill-col {
+    color: #D3D3D3;
+}
+
+.fa-facebook , .fa-github , .fa-linkedin {
+    color: #5BEBA6;
+}
+.fa:hover {
+    -webkit-transform:scale(1.25);
+    color: greenyellow;
+}
+
+#name {
+    color: #BC243C;
+}
+
+.Name{
+ font-family:  Allan ;
+ line-height: 1em;
+ color: undefined;
+ font-size: 80px;
+ text-shadow:0px 0px 0 rgb(231,231,231),1px 1px 0 rgb(216,216,216),2px 2px 0 rgb(202,202,202),3px 3px 0 rgb(187,187,187),4px 4px 0 rgb(173,173,173),5px 5px 0 rgb(158,158,158), 6px 6px 0 rgb(144,144,144),7px 7px 6px rgba(0,0,0,0.6),7px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+
+#more {
+    padding-top: 40px;
+}
+#more-text {
+    font-size: 30px;
+}
+#more-icon {
+    font-size: 48px;
+    color: black;
+}
+#more-text .fa-github {
+    color: white;
+}
+
+#burger {
+    font-size: 32px;
+    color: white;
+    float: right;
+    padding-right: 2%;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 680px){
+    .burger-nav {
+        display: block;
+        height: 48px;
+        width: 100%;
+        background-color: #000000;
+    }
+    
+    nav #menu {
+        overflow: hidden;
+        background-color: #00ff00;
+        height: 0;
+    }
+    
+    nav #menu.open{
+        height: auto;
+    }
+    
+    nav #menu li {
+        float: none;
+        text-align: left;
+        width: 100%;
+        cursor: pointer;
+        margin: 0;
+    }
+    
+    nav #menu li a {
+        color: white;
+        cursor: pointer;
+        padding: 10px;
+        border-bottom: 1px solid #404040;
+        display: block;
+        margin: 0;
+    }
+    .margin4 {
+        width: 100%;
+        padding-top: 40px;
+    }
+    .margin-icon {
+        padding-bottom: 20px;
+        padding-left: 40px;
+    }
+    .int-desc {
+    font-size: 20px;
+    color: #a0dbe1;
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-left: 20px;
+    }
+}
+span {
+    position: fixed;
+	bottom: 5%;
+	left: 95%;
+    right: 0%;
+    opacity: 1.5;
+	width: 50px;
+	height: 50px;
+	margin-left: -12px;
+	border-left: 5px solid #fff;
+	border-bottom: 5px solid #fff;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	box-sizing: border-box;
+    color: bisque;
+}
+span:hover {
+    cursor: pointer;
+}

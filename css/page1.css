@@ -1,0 +1,278 @@
+.body1{
+    font: 20px Montserrat, sans-serif;
+    background-size: cover;
+    opacity: 5;
+    color: #D3D3D3;
+}
+.container-fluid {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.bg1 {
+    background-color: black;
+    background-image: url("images/me.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    color: white;
+}
+.bg3 {
+    margin: 0px;
+    padding-top: 0px;
+    color: black;
+}
+.button {
+    float: right;
+    object-position: bottom;
+    background-color: aqua;
+    color: gray;
+    position: fixed;
+}
+.text-web {
+    font-size: 35px;
+}
+.margin {
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+.margin1 {
+    margin-bottom: 90px;
+}
+.margin2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.high-text {
+    font-size: 90px;
+    font-style: bold;
+}
+.bg2 {
+    padding-top: 0px;
+    margin: 0px;
+}
+.bg5 {
+    
+}
+.reduce {
+    width: 80%;
+    height: 40%;
+    padding-left: 20%;
+}
+.reduce1 {
+    width: 80%;
+    height: 80%;
+    padding-left: 20%;
+}
+.reduce2 {
+    padding-left: 20px;
+}
+.common-bg {
+    background-image: url("http://www.nxworld.net/codepen/css-scroll-down-button/bg06.jpg");
+    background-size: cover;
+}
+.edu {
+    height: 100px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 40px;
+}
+.college {
+    width: 100%;
+    height: 300px;
+}
+.margin3 {
+    padding-top: 40px;
+    transition: opacity 3s linear;
+}
+.clgname {
+    font-size: 25px;
+    color: #40e0d0;
+    padding-top: 20px;
+}
+.text-desc {
+    font-size: 20px;
+    color: blue;
+}
+.percent {
+    padding-left: 15px;
+    font-size: 25px;
+}
+.div-head1 {
+    padding-top = 10px;
+    font-size: 40px;
+    color: #fefd64;
+    font-style: bold;
+}
+.div-head {
+    padding-top = 20px;
+    font-size: 40px;
+    color: #fefd64;
+    font-style: bold;
+}
+
+.bg3 {
+    background-color: #D3D3D3; 
+    margin: 0px;
+    padding-top: 0px;
+    background-image: url("http://hdflowerwallpaper.com/wallpaper/2015/05/blue-flowers-available-in-november-7-free-wallpaper.jpg");
+    background-size: cover;
+}
+
+.proj-img {
+    width: 100%;;
+    height: 300px;
+}
+.margin4 {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.pad-row {
+    margin-left: 5%;
+}
+.intern {
+    align-content: center;
+    margin-left: 5%;
+    padding-top: 30px;
+}
+.lefty {
+    float: left;
+}
+.intern-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 0%;
+    float: right;
+    margin-right: 60px;
+}
+.margin-int {
+    margin-top: 40px;
+}
+.int-desc {
+    font-size: 20px;
+    color: #a0dbe1;
+    width: 60%;
+    float: left;
+    position: relative;
+    padding-left: 20px;
+}
+.list1 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.title {
+    padding-left: 8%;
+    font-size: 40px;
+    color: green;
+    font-style: bold;
+}
+.describe {
+    width: 250px;
+}
+
+.bg4 {
+    color: white;
+    background-color: bisque;
+    background-image: url('images/beach1.jpg');
+    background-size: cover;
+}
+.icons {
+    padding-left: 0%;
+    padding-right: 30%;
+}
+.foot-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.foot-icon:hover {
+    -webkit-transform:scale(1.25);
+}
+.margin-foot {
+    margin-top: 35px;
+}
+.margin-icon {
+    padding-left: 1%;
+}
+
+#number {
+    display: inline;
+    position: relative;
+}
+
+.about {
+    margin-top: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.list {
+    padding-top: 10px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 50%;
+  left: 10%;
+  right: 0;
+  overflow: hidden;
+  background-color: #C0C0C0;
+  width: 80%;
+  height:0;
+  transition: .5s ease;
+}
+.proj:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+.proj {
+    display: block;
+}
+.overlay-p {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    color: #5484A4;
+}
+.code-btn {
+    margin-top: 5px;
+    border: solid;
+    align-self: center;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.col-link:hover .college {
+  opacity: 0.3;
+}
+
+.col-link:hover .middle {
+  opacity: 1.5;
+}
+
+.cv {
+    float: right;
+    right: 0;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 20px;
+  padding: 16px;
+  text-decoration: none;
+}
+.wayfoo {
+    font-size: 38px;
+    color: white;
+    font-style: bold;
+    text-decoration-line: none;
+}
