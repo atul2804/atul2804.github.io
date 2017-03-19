@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>Atul Singh</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/page1.css">
+    <link rel="stylesheet" href="css/page2.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/form1.css">
+    <link rel="icon" href="images/me.jpg" type="image/jpg">
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $(".nav-link").on("click",function(event) {
+                if(this.hash != " ")
+                    {
+                        event.preventDefault();
+                        var hash = this.hash; 
+                        $('html,body').animate({
+                            scrollTop: $(hash).offset().top
+                        }, 800 ,function() {
+                        });
+                    }
+            });
+        });
+        function down() {
+            var h = $(window).height();
+            window.scrollBy(0,h);
+        }
+    </script>  
+    
+</head>
+    
+<body class="body1" data-spy="scroll" data-target=".navbar" data-offset="50" id="main">
+    <div class="container-fluid bg1">
+    <div class="text-center">
+    <h3 class="margin high-text Name">ATUL SINGH</h3>
+    <img src="images/me.jpg" class="img-circle margin" width="250px" height="250px">
+    <h3 class="margin1 text-web">Android and Web Developer</h3>
+        <marquee behavior="alternate" scrolldelay="20"><p class="looking">Looking for internship in the field of development.</p></marquee>
+    </div>
+  <!--  <button class="bottom">Scroll Down</button>  -->
+  <!--  <span id="down-key" onclick="down()"></span>  -->
+    </div>
+    
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="407" id="nav">
+  <div class="container-fluid1">
+      <div>
+        <a class="burger-nav"></a>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right" id="menu">
+          <li><a href="#about1" class="nav-link">About me</a></li>
+          <li><a href="#acad1" class ="nav-link">Academics</a></li>
+          <li><a href="#past1" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#skill1" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Follow</a></li>
+        </ul>
+          <ul class="nav navbar-nav navbar-left" id="hamburg">
+            <li><a href="#main" class="nav-link">&#9776;</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</nav> 
+    <div class="container-fluid bg3" id="about1">
+        <h3 class="text-center div-head1"><strong>About Me</strong></h3>
+        <div class="about">
+            <p>I am a second year student studying at National Institute of Technology Karnataka (NITK).Developing Android and Web Apps is what I like the most.</p>
+            <p>I like to play Cricket.I am a big follower of Cricket and Indian Sports.My favourite cricketers are Rahul Dravid and MS Dhoni.</p>
+            <h4 class="scholar"><strong>Scholarships and Achievements</strong></h4>
+            <ul>
+                <li>Reliance Dhirubhai Ambani Scholarship for undergraduate students (&#8377; 36000 per year from 2015-2019).</li>
+                <li class="list">NITK Merit Cum Means Scholarship.</li>
+                <li class="list">Second rank in Junior College.</li>
+                <li class="list">200/200 in Electrical Maintenance Subject(Class 12th).</li>
+                <li class="list">School Topper in Maths.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="common-bg">
+    
+    <div class="container-fluid bg2" id="acad1">
+        <h3 class="text-center div-head">ACADEMICS</h3>
+    <div class="row">
+        <div class="col-sm-4 margin3">
+            <div class="reduce col-link">
+        <img src="images/NIT-SURATHKAL-LOGO.png" class="img-responsive college">
+            <div class="middle">
+                <div class="text"><a href="http://www.nitk.ac.in/">Visit Website</a></div>
+            </div>
+            </div>
+        <h4 class="clgname text-center">National Institute of Technology Karnataka</h4>
+        <p class="text-center">B-Tech in Computer Science and Engineering</p>
+        <p class="text-center">Currently in Second year.</p>
+        </div>
+         <div class="col-sm-4 margin3">
+             <div class="reduce col-link">
+        <img src="images/PACE-logo.png" class="img-responsive college">
+             <div class="middle">
+                <div class="text"><a href="http://www.iitianspace.com/">Visit Website</a></div>
+            </div>
+             </div>
+        <h4 class="clgname text-center">Pace Junior Science College</h4>
+        <p class="text-center">Class 12th</p>
+        <p class="percent text-center">Percentage : 95.54</p>
+        </div>
+         <div class="col-sm-4 margin3">
+             <div class="reduce col-link">
+             <img src="images/thakur.jpg" class="img-responsive college">
+             <div class="middle">
+                <div class="text"><a href="http://www.tvmmumbai.in/" id="link2">Visit Website</a></div>
+            </div>
+             </div>
+        <h4 class="clgname text-center">Thakur Vidya Mandir High School</h4>
+        <p class="text-center">Class 10th</p>
+        <p class="percent text-center">Percentage : 93.09</p>
+        </div>
+        </div>
+    </div>
+    
+    
+    <div class="container-fluid bg5" id="past1">
+        <h3 class="text-center div-head">PAST EXPERIENCE</h3>
+        <div class="intern">
+            <ul class="int-desc lefty">
+                <li class="list1">Wayfoo is a restaurant ordering application which is digitalising the way you order your food. You can now place your orders using the mobile application</li>
+                <li class="list1">Wayfoo is a startup founded by students of NITK</li>
+                <li class="list1">Working as an Android App Developer from Jan 2017.</li>
+                <li class="list1">Job is to add new features to the existing app.</li>
+            </ul>
+            <div class="col-link">
+                <img src="images/wayfoo.png" class="intern-img righty img-responsive college">
+               <!-- <div class="middle">
+                <div class="text"><a href="http://www.nitk.ac.in/" id="link2">Visit Website</a></div>
+            </div> -->
+            </div>
+        </div>
+    </div>
+        
+    <div class="container-fluid bg5" id="projects">
+        <h3 class="text-center div-head">PROJECTS</h3>
+    <div class="row margin-int">
+        <div class="col-sm-4 col-xs-6 margin4 proj">
+        <div class="reduce1">
+        <img src="images/Rahul%20Dravid%20by%20Atul%20Ojhal%20Dube.jpg" class="img-responsive proj-img">
+        <div class="overlay">
+            <h3 class="text-center" id="name"><strong>THE WALL APP</strong></h3>
+            <p class="overlay-p">My First Android App. I developed this app when i was learning Android, dedicated to Rahul Dravid. It includes user authentication using firebase ,navigation drawer,etc. Quiz using Google Firebase is what I am going to add in this app.</p>
+            <a class= "link1" href="https://github.com/atul2804/My_First_App"><button class="code-btn">Source Code</button></a>
+            </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-6 proj margin4">
+        <div class="reduce1">
+        <img src="images/300px-Rock-paper-scissors.svg.png" class="img-responsive proj-img">
+            <div class="overlay">
+            <h3 class="text-center" id="name"><strong>Rock Paper Scissors Game</strong></h3>
+            <p class="overlay-p">Designed this game which can be played by 2 players.Also, this game can be played by a player against CPU.It is a pure digital circuit.No Analog Component used.A basic version of this circuit was also implemented in hardware using breadboards.</p>
+                <a class="link1 text-center" href="https://github.com/atul2804/Rock-Paper-Scissors"><button class="code-btn">Source Code</button></a>
+            </div>
+            </div>
+        </div>
+        <div class="proj col-sm-4 col-xs-6 margin4">
+        <div class="reduce1">
+        <img src="images/hand.png" class="img-responsive proj-img">
+            <div class="hover1">
+            <div class="overlay">
+            <h3 class="text-center" id="name"><strong>Hand Cricket APP</strong></h3>
+            <p class="overlay-p">Android App which can be used to play this game from our childhood.Player will play against the CPU.Rules are same as the actual one.Player can score from 1 to 6.Plan is to make this game multiplayer.App is under development,working on it.</p>
+            <a class="link1" href="https://github.com/atul2804/HandCricket"><button class="code-btn">Source Code</button></a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+        <div class="text-center" id="more">
+        <p id="more-text">For updates on my projects do Follow me on  <a href="https://github.com/atul2804">
+                        <i id="more-icon" class="fa fa-github"></i>
+            </a></p>
+        </div>
+        </div>
+        
+    <div class="container-fluid bg5" id="skill1">
+        <h3 class="div-head text-center">What do I Know ?</h3>
+        <div class="skill-main row pad">
+            <div class="col-sm-4 margin5 subj fade-in-down">
+                <div class="reduce2">
+                <img src="images/html5js.png" class="img-responsive img-circle skill-img">
+                <h5 class="subject">Web Development</h5>
+                <p class="lang">HTML,CSS,JavaScript</p>
+                <p class="lang">Bootstrap,PHP</p>
+            </div>
+            </div>
+            <div class="col-sm-4 margin5 subj">
+                <div class="reduce2">
+                <img src="images/Android%20Logo.png" class="img-responsive img-circle skill-img">
+                <h5 class="subject">Android Development</h5>
+                <p id="skill-col">Android,Google Firebase,</p>
+                <p>Cpanel,MySQL</p>
+                </div>
+            </div>
+            <div class="col-sm-4 margin5 subj">
+                <div class="reduce2">
+                <img src="images/code.jpg" class="img-responsive img-circle skill-img">
+                <h5 class="subject">Coding Languages</h5>
+                <p>C, C++, Java</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center resume-div" id="resume">
+            <button class="resume" onclick="window.open('files/Atul%20Singh.pdf');">RESUME</button>
+        </div>
+    </div>
+    </div>
+    
+  <!--  <div class="container-fluid contact-bg">
+        <div class="text-center">
+            <h1>Contact Me</h1>
+        </div>
+            <form class="margin-form">
+                <div class="">
+                    <input type="text" value="name" placeholder="Name" id="input-name">
+                    <input type="email" value="email" placeholder="Email" id="input-email">
+                    <input type="text" value="subject" placeholder="Subject" id="input-sub">
+                </div>
+                <div class="">
+                    <textarea name="messg" value="message" id="input-area" placeholder="Enter your Message..."></textarea>
+                </div>
+                <input type="submit" value="Submit" id="input-submit">
+            </form>
+        
+        </div>  -->
+    
+    <footer class="container-fluid bg4" id="contact">
+        <h3 class="div-head1 contact-text">Follow Me</h3>
+        <div class="contact-marg">
+        <div class="icons">
+            <div class="row margin-foot">
+                <div class="col-sm-4 margin-icon">
+                    <a href="https://www.facebook.com/profile.php?id=100009519435352">
+                        <!--<img src="fb.png" class="foot-icon">-->
+                    <i id="my-icon" class="fa fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="col-sm-4 margin-icon">
+                    <a href="https://github.com/atul2804">
+                        <!--<img src="me.jpg" class="foot-icon fa fa-github"> -->
+                        <i id="my-icon" class="fa fa-github"></i>
+                    </a>
+                </div>
+                <div class="col-sm-4 margin-icon">
+                    <a href="https://www.linkedin.com/in/atul-singh-2804">
+                        <i id="my-icon" class="fa fa-linkedin"></i> </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+</body>
+</html>
