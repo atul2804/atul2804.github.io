@@ -10,7 +10,7 @@
 }
 .bg1 {
     background-color: black;
-    background-image: url("images/me.jpg");
+    background-image: url("/images/homescreen1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
@@ -172,7 +172,7 @@
 .bg4 {
     color: white;
     background-color: bisque;
-    background-image: url('images/beach1.jpg');
+    background-image: url("/images/beach1.jpg");
     background-size: cover;
 }
 .icons {
